@@ -1,6 +1,5 @@
 ## 目录结构
 
-
 ```shell
 |   .env.example  # env 示例文件
 |   .gitignore
@@ -29,12 +28,22 @@
 +---utils           # 工具
 ```
 
-
 ## 依赖服务包
-+ gin web框架
 
-+ gorm orm包
+- gin web 框架
 
-+ viper 配置服务
+- gorm orm 包
 
-+ zip 日志
+- viper 配置服务
+
+- zip 日志
+
+- github.com/joho/godotenv 读取 .env 文件
+
+## 热更新
+
+go install github.com/cosmtrek/air@latest
+
+air init
+
+air
